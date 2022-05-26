@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat';
+    color: #c0c0c0; 
+}	
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 350px; 
+    background: url('../img/hero.png'); 
+    background-size: cover;
+    background-position: center;
+    border-bottom: solid 2px #f8f8ff;
+}
+
+header h1 { 
+    padding: 65px 0px 40px 10px;
+    font-size: 30px; 
+    font-family: "Montserrat";
+    color: #f8f8ff; 
+}
+
+nav {
+    float: right; 
+    padding: 65px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: none;  
+    font-size: 30px;
+    padding-left: 50px; 
+    color: #f8f8ff; 
+
+}
+header h2 {
+    width: .full-width; 
+    clear: both; 
+    font-size: 55px; 
+    line-height:5px;  
+    padding: 0px 0 20px 15px;
+    color: #f8f8ff; 
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 500px;
+    background:  #f8f8ff;
+}
+
+
+#portfolio img#rogue-img {
+    padding-top: 25px;
+}
+
+
+
+/******CONTACT******/
+
+
+#contact {
+    background-color: #f8f8ff;;
+    padding: 25px 0;
+    border-bottom: solid 2px #c0c0c0; 
+    border-top: solid 2px #c0c0c0;
+    height: 300px;
+}
+
+#contact h2 {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    line-height: 44px;
+    color:#f8f8ff;
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #f8f8ff;
+}
+
+#contact h4 {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#contact p {
+    font-family: 'Lora';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    margin-left: 110px;
+    font-weight: bold;
+}
+
+#contact a {
+    font-family: 'Lora';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color:  #f8f8ff;
+}
+
+#contact ul {
+    list-style: none;
+    margin-left: 135px; 
+}
+
+#contact ul li {
+     display: inline-block;
+     padding-right: 5px;
+     padding-left: 5px;
+     color: #f8f8ff;
+}
+
+
+#contact #email-header {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #f8f8ff;
+    padding-left: 70px;
+
+}
+
+#contact #phone {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #f8f8ff;
+    margin-left: 120px;
+}
+
+
+#contact #socialmedia-header {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    line-height: 40px;
+    text-decoration: none;
+    color:#f8f8ff;
+    margin-left: 150px;
+}
+
+#contact {
+    padding:  10px;
+    background: url('../img/hero.png'); 
+}
+
+
+
